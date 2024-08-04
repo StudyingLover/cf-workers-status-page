@@ -6,12 +6,15 @@ webpack_config = "node_modules/flareact/webpack"
 compatibility_date = "2021-07-23"
 
 [triggers]
-crons = ["* * * * *"]
+crons = ["*/2 * * * *"]
 
 [site]
 bucket = "out"
 entry-point = "./"
 
+[[kv_namespaces]]
+binding = "cf_workers_status_page"
+id = "610dcc0d9f854ae2b985c9fc535f0213"
 # uncomment and adjust following if you are not using GitHub Actions
 #[env.production]
 #kv-namespaces = [{binding="KV_STATUS_PAGE", id="xxxx", preview_id=""}]
