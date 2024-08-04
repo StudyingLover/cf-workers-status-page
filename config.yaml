@@ -31,8 +31,52 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
+  - id: labs.thisis.plus
+    name: labs.thisis.plus
+    description: '西安邮电大学实验室汇总'
+    url: 'https://labs.thisis.plus/'
+    method: GET
+    expectStatus: 200
+    linkable: true
+
   - id: serv00
     name: serv00 
     url: 'https://studyinglover.serv00.net/info'
     method: GET
     expectStatus: 200
+    linkable: false
+
+  - id: DERP-guangzhou
+    name: DERP-guangzhou 
+    url: 'https://aa74cc8b-94af-4a77-8368-4281104fa540.derp.studyinglover.top:56473/'
+    method: GET
+    expectStatus: 200
+    linkable: false
+
+  - id: DERP-hongkong
+    name: DERP-hongkong 
+    url: 'https://69c0baec-c152-49e7-94db-6285d3cb0ccd.derp.thisis.plus:56473/'
+    method: GET
+    expectStatus: 200
+    linkable: false
+
+  - id: DERP-us
+    name: DERP-us
+    url: 'https://2c02d883-6532-420e-885b-f96d308bf292.derp.thisis.plus:56473/'
+    method: GET
+    expectStatus: 200
+    linkable: false
+
+  - id: ZTE-Data-MiddleLayer
+    name: ZTE-Data-MiddleLayer
+    url: 'https://zte-data.studyinglover.top/'
+    method: GET
+    expectStatus: 200
+    linkable: false
+
+  - id: DataEase
+    name: DataEase
+    url: 'https://dataease.studyinglover.top/'
+    method: GET
+    expectStatus: 200
+    linkable: false
